@@ -5,6 +5,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { routes } from './app-routing';
 
+import icons from '@fortawesome/fontawesome-free-solid';
+import fontawesome from '@fortawesome/fontawesome';
+
 import { AppComponent } from './app.component';
 import { IndexPageComponent } from './pages/index/index.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -26,3 +29,5 @@ import { NavbarComponent } from './navbar/navbar.component';
 })
 export class AppModule {
 }
+
+fontawesome.library.add(icons);

@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.masthead,
+.jumbotron {
+  background: linear-gradient(135deg, #0143a3, #0273d4);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.masthead {
+  text-align: center;
+}
